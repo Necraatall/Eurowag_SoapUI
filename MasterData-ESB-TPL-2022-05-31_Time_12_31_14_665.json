@@ -1,0 +1,155 @@
+{  
+   "request":{  
+      "requestHeader":{  
+         "consumerId":"ESB",
+         "providerId":"TPL",
+         "messageId":"5703b688-c34b-474a-8422-ee41b3aeff73",
+         "timestamp": "2019-11-08T12:13:43.110Z",
+         "correlationId":"2019-11-08T12:13:43.122Z",
+         "businessId":{  
+            "itemId":"2019-11-08T12:13:43.122Z",
+            "itemName":"MasterData",
+            "process":"sync",
+            "language":"en",
+            "user":"milan.zlamal"
+         }
+      },
+      "requestBody":{  
+         "listOfCustomerData":[  
+            {  
+               "customerData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "businessEntityNbr":"WAG",
+                  "customerNbr":"48531846",
+                  "customerStatus":1,
+           	   "customerName": "Lindsay Marse",
+                  "customerRegistrationNumber":"58935203",
+                  "taxNumber":"991460627",
+                  "taxIdentificationNumber":"991460627",
+                  "vatIdentificationNumber":"CZ991460627"
+               }
+            }
+         ],
+         "listOfContactData":[  
+            {  
+               "contactData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "customerNbr":"48531846",
+                  "contactNbr":"26521565",
+                  "contactStatus":0,
+                  "title": "MR",
+                  "name": "Lindsay",
+            	   "surname": "Marse",
+            "contactRole": 1,
+            "phone": "01366-667615",
+            "email": "magdalene_cocherell@yahoo.com"
+               }
+            }
+         ],
+         "listOfAddressData":[  
+            {  
+               "addressData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "customerNbr":"48531846",
+            "addressId": "D348BA472894A7F2618E",
+            "addressStatus": 0,
+            "addressType": 2,
+            "street": "77 Mason St #650",
+            "postcode": "L6 9DU",
+            "city": "St. Austell",
+            "region": "Cumbria",
+            "country": "CM"
+               }
+            }
+         ],
+         "listOfTollContractData":[  
+            {  
+               "tollContractData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "customerNbr":"48531846",
+                  "tollContractNbr":"83138599",
+                  "tollContractExtNbr":"83138599",
+                  "contractProvider":"744002",
+                  "contractType":"0001",
+                  "contextVersion":"04",
+                  "tollContractStatus":0,
+                  "businessPartner":"ATSC",
+                  "technicalPartner":"WAGAS",
+                  "productCode":"ONE",
+            "serviceCode": "HU",
+                  "serviceDomainCode":"EETS_HU",
+                  "serviceAreaCode":"HU",
+             "validityFrom": "2017-09-07T12:13:43.138Z",
+            "validityTo": "2020-01-14T12:13:43.154Z"
+               }
+            }
+         ],
+         "listOfVehicleData":[  
+            {  
+               "vehicleData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "customerNbr":"48531846",
+                  "vehicleId":"061844",
+            "vehicleStatus": 0,
+            "licensePlateCountry": "SS",
+            "licensePlateNumber": "9BLQ845",
+            "licensePlateNumberAscii": "9BLQ845",
+            "firstRegistrationDate": "2011-11-05",
+            "vehicleMake": "2020-09-19",
+            "vehicleIdentificationNumber": "FC3D0BADDBE9CD755",
+            "vehicleCategory": "N2",
+            "emissionClass": "EURO_IV",
+                  "co2":"7001",
+            "reductionFilter": 1,
+            "vehicleFirstAxleHeight": 6177,
+                  "tyreType":1,
+                  "tractorAxlesNumber":2,
+                  "trailerAxlesNumber":2,
+            "weightG": 4040,
+            "weightF1": 3850,
+            "weightF2": 6261,
+            "weightF3": 2134,
+            "length": 291,
+            "width": 6367,
+            "height": 2780,
+            "engineFuel": "GP",
+            "consumptionCity": 19.80,
+            "consumptionHighway": 14.59,
+            "consumptionCombined": 4.22,
+            "consumptionEachTonLoaded": 21.52
+               }
+            }
+         ],
+         "listOfObeData":[  
+            {  
+               "obeData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "customerNbr":"48531846",
+                  "obeId":"0039C847425D",
+                  "obeContractProvider":"744002",
+                  "obeManufacturerID":"0039",
+                  "obeEquipmentID":"C847425D",
+                  "obeConstant":"04",
+                  "obeStatus":2,
+                  "obeOrderStatus":2,
+                  "obeType":1,
+                  "pan":"C96226E26301CE30",
+			   "panExpiration": "2020-09-20T12:13:43.207Z",
+                  "vehicleId":"061844"
+               }
+            }
+         ],
+         "listOfObeServiceData":[  
+            {  
+               "obeServiceData":{  
+				  "actionId": "ContractOperation 23D186C0DF002E7A9C0F",
+                  "obeId":"0039C847425D",
+                  "tollContractNbr":"83138599",
+                  "obeServiceStatus":1,
+                  "specificObeId":"0039C847425D"
+               }
+            }
+         ]
+      }
+   }
+}
